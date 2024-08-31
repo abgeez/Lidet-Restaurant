@@ -1,0 +1,214 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #ECECE6;
+}
+@font-face {
+    font-family: Neteru;
+    src: url(./asset/Neteru.ttf);
+
+}
+@font-face {
+    font-family: Adwa;
+    src: url(./asset/Adwa-Bold.ttf);
+}
+header .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #FFD25D; */
+    padding: 10px;
+}
+header img{
+    width: 100px;
+    height: 50px;
+}
+/**/
+.top-nav{
+    background-color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+ul{
+    list-style: none;
+}
+.top-nav li{
+    background-color: white;
+}
+.top-nav a{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border: none;
+    font-family: Neteru;
+}
+/* .top-nav :first-child{
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+} */
+ .banner img{
+    /* transform: rotate(90deg); */
+    width: 98%;
+    object-fit: cover;
+    height: 300px;
+    border-radius: 20px;
+    margin-left: 15px;
+
+}
+.banner h2{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: white;
+    font-size: 4rem;
+    white-space: 0px;
+    font-family: Neteru;
+}
+
+/**/
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.menu-content{
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    /* padding: 1px; */
+    width: 300px;
+    height: 50vh;
+    margin-bottom: 20px;
+    font-family: Adwa;
+    
+}
+.menu-content img{
+    width: 300px;
+    height: 30vh;
+    border-radius: 20px 20px 0px 0px;
+    background-color: white;
+}
+.menu-content *{
+    background-color: white;
+}
+.menu button{
+    background-color: gold;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: medium;
+    font-weight: 600;
+    margin-top: 10px;
+    font-family: 'Neteru';
+}
+.menu-content button:hover{
+    background-color: goldenrod;
+    color: white;
+}
+/**/
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 30vh;
+}
+footer ul{
+    list-style: none;
+    background-color: white;
+}
+footer .logo,.link,img,h3,li,a{
+    background-color: white;
+}
+footer .link{
+    align-content: center;
+}
+footer .logo{
+    align-content: center;
+}
+footer img{
+    width: 350px;
+    height: 130px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+footer a,h3{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: "Neteru";
+}
+footer hr{
+
+}
+footer a:hover{
+    color: rgb(37, 208, 208);
+}
+
+
+
+
+@media (max-width: 950px){
+    .menu{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .menu-content{
+        padding: 20px;
+        width: 200px;
+        height: 250px;
+    }
+    .menu-content img{
+        width: 150px;
+        height: 100px;
+    }
+    .menu button{
+
+    }
+    .banner img{
+        width: 90%;
+        object-fit: cover;
+        height: 100px;
+        border-radius: 20px;
+        margin-left: 35px;
+    }
+    .banner h2{
+        font-size: 1.5rem;
+        position: absolute;
+        top: 25%;
+        right: 1%;
+        white-space: 1px;
+    }
+    footer{
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    /* position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: white;
+    font-size: 4rem;
+    white-space: 0px;
+    font-family: Neteru; */
+    
+}

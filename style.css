@@ -229,13 +229,21 @@ footer a:hover{
     }
     .menu{
         display: grid;
+        margin-left: 5px;
         grid-template-rows: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
     }
     .menu-content{
-        width: 150px;
+        width: 190px;
     }
     .menu-content img{
         width: 120px;
+    }
+    .banner h2{
+        font-size: 1rem;
+        position: absolute;
+        top: 28%;
+        right: 1%;
+        white-space: 1px;
     }
 }

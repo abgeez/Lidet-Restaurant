@@ -234,10 +234,13 @@ footer a:hover{
         grid-template-columns: 1fr 1fr;
     }
     .menu-content{
-        width: 180px;
+        width: 160px;
     }
     .menu-content img{
         width: 120px;
+    }
+    .menu-content h2{
+        font-size: 1rem;
     }
     .banner h2{
         font-size: 1rem;

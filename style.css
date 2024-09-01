@@ -216,3 +216,10 @@ footer a:hover{
     font-family: Neteru; */
     
 }
+@media (max-width: 437px){
+    .menu{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+}
